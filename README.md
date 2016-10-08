@@ -1,3 +1,3 @@
 # fish-config
 
-my fish config file
+My fish config file
