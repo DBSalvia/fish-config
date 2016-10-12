@@ -1,6 +1,6 @@
 # quick-config
 
-Quick set up for my most frequently used tools:
+Quick set up for my most frequently used command line tools:
 
 * Homebrew
 * NVM
