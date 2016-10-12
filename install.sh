@@ -7,10 +7,11 @@ then
 fi
 
 # Install NVM if required
-which -s nvm
-if [ $? != 0 ]
+command -v nvm
+if [ $? != 'nvm' ]
 then
 	curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.0/install.sh | bash
+	source ~/.bashrc
 fi
 
 # Install Fish if required 
