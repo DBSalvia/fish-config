@@ -6,7 +6,14 @@ then
 	/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
-#Install Fish if required
+# Install NVM if required
+which -s nvm
+if [ $? != 0 ]
+then
+	curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.0/install.sh | bash
+fi
+
+# Install Fish if required 
 which -s fish
 if [ $? != 0 ] 
 then
