@@ -8,6 +8,6 @@ Quick set up for my most frequently used tools:
 
 # Usage
 
-* Clone repo
+* Clone
 * Run install.sh
 * Done :)
