@@ -1,7 +1,6 @@
 # quick-config
 
-A Bash automated configuation for my most frequently used command line tools.
-Install.sh will get and configure the following:
+A Bash automated configuation for my most frequently used command line tools:
 
 * Homebrew
 * NVM
