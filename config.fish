@@ -5,7 +5,7 @@ fundle plugin 'edc/bass'
 fundle init
 
 function nvm
-    bass source ~/.nvm/nvm.sh ';' nvm $argv
+  bass source ~/.nvm/nvm.sh ';' nvm $argv
 end
 
 nvm use current > /dev/null
