@@ -9,3 +9,8 @@ function nvm
 end
 
 nvm use current > /dev/null
+
+function code
+  set location "$PWD/$argv"
+  open -n -b "com.microsoft.VSCode" --args $location
+end
