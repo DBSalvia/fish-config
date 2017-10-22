@@ -1,4 +1,3 @@
-
 # Install Homebrew if required
 which -s brew
 if [ $? != 0 ]
@@ -6,8 +5,9 @@ then
 	/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
-# Install NVM if required
+# Install NVM
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.0/install.sh | bash
+touch ~/.bashrc
 source ~/.bashrc
 
 # Install Fish if required
